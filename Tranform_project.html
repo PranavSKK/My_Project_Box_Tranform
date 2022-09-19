@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Tranform_project.css">
+</head>
+<body class="background">
+   <div class="panel">
+        <button class="btnl btnsize" onclick="left()">L</button>
+        <button class="btnr btnsize" onclick="right()">R</button>
+        <button class="btnu btnsize" onclick="up()">U</button>
+        <button class="btnd btnsize" onclick="down()">D</button>
+   </div>
+
+    <div class="main">
+        <div class="size" ></div>
+        <div class="size" ></div>
+        <div class="size" ></div>
+        <div class="size" >
+            <div class="size personcss" id="person">Hi ! Where? You want Me to Move !</div>
+        </div>
+    </div>
+
+    <script>
+
+        let person=document.getElementById("person")
+        
+        function left(){ 
+                let pos=0  
+                pos+=250
+                person.style.right=pos+'px'    
+            }
+
+        function right(){
+                let pos=-250
+                pos+=250
+                person.style.right=-pos+'px'      
+            }
+
+        function up(){
+                let pos=0
+                pos+=250
+                person.style.top=-pos+'px'           
+            }
+
+        function down(){
+                let pos=-250
+                pos+=250
+                person.style.top=pos+'px'            
+            }
+
+
+    </script>
+
+</body>
+</html>
+
+
+

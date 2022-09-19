@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.background{
+    background-image: url("puzzel.jpeg");
+}
+.main{
+    height: 512px;
+    width: 512px;
+    border: 2px solid black;
+    position: relative;
+    top: 0px; 
+    left: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.size{
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    position: relative;
+    background-color: aqua;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+.personcss{
+    font-family: cursive;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.panel{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    position: relative;
+    top: 550px;
+    left: 825px;
+    float: left;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: palevioletred;
+
+}
+.btnsize{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    height: 25px;
+    width: 25px;
+    font-weight: 1000;
+    background-color: aqua;
+    
+}
+.btnl{
+    position: absolute;
+    top: 37.5px;
+    left: 0px;
+}
+.btnr{
+    position: absolute;
+    top: 37.5px;
+    left: 75px;
+}
+.btnu{
+    position: absolute;
+    top: 0px;
+    left: 37.5px;
+}
+.btnd{
+    position: absolute;
+    top: 75px;
+    left: 37.5px;
+}
+#person{
+    height: 100%;
+    width: 100%;
+    background-color: lightpink;
+    position: absolute;
+    transition: all 1s;
+
+}
